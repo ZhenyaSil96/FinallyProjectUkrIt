@@ -1,0 +1,26 @@
+{
+  "name": "projectsignin",
+  "version": "1.0.0",
+  "description": "Project Sign In",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack --mode development -w",
+    "dbstart": " json-server db.json"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Yevhenii",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.3.1",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {}
+}
